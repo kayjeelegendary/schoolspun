@@ -26,8 +26,6 @@ var proxy = require('http-proxy-middleware');
 
 
 
-var requestProxy = require('express-request-proxy');
-
 
  
 
