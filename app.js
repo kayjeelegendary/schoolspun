@@ -35,7 +35,7 @@ var requestProxy = require('express-request-proxy');
 mongoose.Promise = global.Promise;
 
 // connect to MongoDB
-mongoose.connect('mongodb://uhq3eksvtmgg0ruub7m4:EHsym3vQnmSBxdnRl32X@btbmpzr6nehyrko-mongodb.services.clever-cloud.com:27017/btbmpzr6nehyrko')
+mongoose.connect('mongodb://ujygmn5jhrphhx5mhbiu:zp4jLc2r7DAMgYu3y9bp@b9wdgl7qmj5svec-mongodb.services.clever-cloud.com:27017/b9wdgl7qmj5svec')
   .then(() =>  console.log('connection succesful'))
   .catch((err) => console.error(err));
 
