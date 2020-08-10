@@ -1,0 +1,28 @@
+
+ <div class="contentWRAP  loginWRAP">
+<img src="/images/spaceman.png" alt="" class="bg-image">
+		<section id="login">
+	<section id="todoapp">
+		
+
+		
+  
+
+				
+					<form id="todo-form" ng-submit="addTodo()">
+						<input id="new-todo" ng-model="btnClass"  placeholder="whats your question? what,who,etc" ng-model="cities" ng-disabled="saving"  typeahead="suggestion for suggestion in cities($viewValue)" autofocus>
+					</form>
+			  <pre>{{cities | json}}</pre>
+
+					   
+				<section id="main" ng-show="todos.length" ng-cloak>
+		
+				</section>
+				<footer id="footer" ng-show="todos.length" ng-cloak>
+				
+				</footer>
+			</section>
+			<p><a href="#">EXIT</a></p>
+
+		</section>
+	</div>	
